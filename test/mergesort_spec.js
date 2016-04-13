@@ -9,7 +9,7 @@ describe('Recursive merge sort', function(){
     })
 })
 
-describe('Recursive merge sort', function(){
+describe('Iterative merge sort', function(){
     it('is working', function(){
         expect(mergeSortIterative([1,3,2,4])).to.eql([1,2,3,4])
     })
